@@ -54,6 +54,10 @@ if __name__ == '__main__':
 正难则反，发现填1的代码比较繁琐，思考能否反过来填0。
 初始化一个 $2^n \times 2^n$ 的矩阵。初始时所有位置为 $1$，然后每次将当前矩阵分成四个相等的小矩阵，把左上角的小矩阵全部置为 $0$，递归处理剩下的三个小矩阵。递归终止条件是矩阵大小为 $1 \times 1$。
 
+可能需要的知识：
+- dfs：学习网站：[OI Wiki](https://oi-wiki.org/search/dfs/)，B站：[图的算法-DFS深度优先遍历搜索算法 数据结构与算法【图码】](https://www.bilibili.com/video/BV17Y4UefEzs/?spm_id_from=333.337.search-card.all.click&vd_source=933c136d6897dbf20ff125fb1209208f)
+- 递归：学习网站：[OI Wiki](https://oi-wiki.org/basic/divide-and-conquer/)，B站：[【递归1】递归中的逆向思维【五点七边】](https://www.bilibili.com/video/BV1214y157HG?spm_id_from=333.788.recommend_more_video.-1&vd_source=933c136d6897dbf20ff125fb1209208f)，[有个说法：“「递归」是检验编程天赋的试金石”；而本视频打破天赋壁垒，助你快速掌握递归。【NotOnlySuccess】](https://www.bilibili.com/video/BV1LiS1YSEgF/?spm_id_from=333.337.search-card.all.click&vd_source=933c136d6897dbf20ff125fb1209208f)
+
 ### 代码(c++)：
 时间复杂度 **O(3^n)**，因为每次递归分成四块，递归深度为 $n$。
 

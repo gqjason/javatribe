@@ -84,9 +84,9 @@ Q_1 : a_{t_i} = a_{(t \bmod 2)_i} + \dfrac {sum_{t} - sum_{(t \bmod 2)}} {n} (1 
 2. $Q_2$ 中除 $n$ 时可能需要用到 ***逆元***
 
 **可能需要用到的知识：**
-1. 快速幂：
+- 快速幂：
 学习网站：[OI Wiki](https://oi-wiki.org/math/binary-exponentiation/) ，B站：[快速幂都能做什么？小小的算法也有大大的梦想【五点七边】](https://www.bilibili.com/video/BV16Z4y1M7y1/?spm_id_from=333.337.search-card.all.click&vd_source=933c136d6897dbf20ff125fb1209208f)
-2. 逆元：
+- 逆元：
 学习网站：[OI Wiki](https://oi-wiki.org/math/number-theory/inverse/) ，B站：[算法讲解099【扩展】 逆元和除法同余、容斥原理【左程云】](https://www.bilibili.com/video/BV1SW4y1F7Tq/?spm_id_from=333.337.search-card.all.click&vd_source=933c136d6897dbf20ff125fb1209208f)
 ### 代码(c++)：
 

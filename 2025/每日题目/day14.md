@@ -90,8 +90,7 @@ int main() {
 **五倍经验**：[P5367 【模板】康托展开](https://www.luogu.com.cn/problem/P5367)
 
 可能需要的知识：
-- 康托展开：
-学习网站：[维基百科](https://zh.wikipedia.org/wiki/%E5%BA%B7%E6%89%98%E5%B1%95%E5%BC%80)，B站：[算法讲解146【扩展】康托展开、约瑟夫环、完美洗牌【左程云】](https://www.bilibili.com/video/BV1Dz2eYTE7T/?spm_id_from=333.337.search-card.all.click)
+c
 
 ### 代码(c++)：
 时间复杂度 **O($n^2$)**，其中`n`为字符串长度。

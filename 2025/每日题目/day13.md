@@ -51,8 +51,7 @@ int main() {
 🤔：python优势还是太大了，高精度遥遥领先这一块🤣🤣🤣
 
 可能需要的知识：
-- 高精度：
-学习网站：[OI Wiki](https://oi-wiki.org/math/bignum/), b站:【董晓算法】[A01 高精度算法 加法](https://www.bilibili.com/video/BV1UG4y1B7ur/?spm_id_from=333.337.search-card.all.click&vd_source=933c136d6897dbf20ff125fb1209208f), [A02 高精度算法 减法](https://www.bilibili.com/video/BV1Ge4y1o7mD?spm_id_from=333.788.videopod.sections&vd_source=933c136d6897dbf20ff125fb1209208f), [A03 高精度算法 乘法](https://www.bilibili.com/video/BV1dG411G7eb?spm_id_from=333.788.videopod.sections&vd_source=933c136d6897dbf20ff125fb1209208f), [A04 高精度算法 除法](https://www.bilibili.com/video/BV1Je4y1o7vR?spm_id_from=333.788.videopod.sections&vd_source=933c136d6897dbf20ff125fb1209208f)
+- 高精度：学习网站：[OI Wiki](https://oi-wiki.org/math/bignum/), b站:【董晓算法】[A01 高精度算法 加法](https://www.bilibili.com/video/BV1UG4y1B7ur/?spm_id_from=333.337.search-card.all.click&vd_source=933c136d6897dbf20ff125fb1209208f), [A02 高精度算法 减法](https://www.bilibili.com/video/BV1Ge4y1o7mD?spm_id_from=333.788.videopod.sections&vd_source=933c136d6897dbf20ff125fb1209208f), [A03 高精度算法 乘法](https://www.bilibili.com/video/BV1dG411G7eb?spm_id_from=333.788.videopod.sections&vd_source=933c136d6897dbf20ff125fb1209208f), [A04 高精度算法 除法](https://www.bilibili.com/video/BV1Je4y1o7vR?spm_id_from=333.788.videopod.sections&vd_source=933c136d6897dbf20ff125fb1209208f)
 ### 代码(c++)：
 时间复杂度：**O($n \log n \cdot L$)**，其中 $n$ 为数字个数，$L$ 为所有二进制字符串长度之和。
 ```c
