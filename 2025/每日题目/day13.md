@@ -130,4 +130,30 @@ signed main() {
 }
 ```
 
+代码(Python)：  
+```python
+from functools import cmp_to_key
+
+def dec_to_bin(n):
+    return bin(n)[2:]
+
+def cmp(a, b):
+    if a + b > b + a:
+        return -1
+    if a + b < b + a:
+        return 1
+    return 0
+
+def main():
+    n = int(input().strip())
+    v = [dec_to_bin(i) for i in range(1, n + 1)]
+    v.sort(key=cmp_to_key(cmp))
+    s = ''.join(v)
+    # 不用手写高精度，直接利用 Python 的大整数
+    print(int(s, 2))
+
+if __name__ == "__main__":
+    main()
+```
+
 
