@@ -14,23 +14,25 @@
 如图所示，设人行走速度为 $v_1$, 车速度为 $v_2$。
 我们可以列以下方程：
 
-\[
+<!-- \[
 \begin{cases}
 &\text{对于A: }f_A = t_1 \cdot v_2 + t_2 \cdot v_1 + t_3 \cdot v_1 = s  \newline
 &\text{对于B: }f_B = t_1 \cdot v_1 + t_2 \cdot v_1 + t_3 \cdot v_2 = s  \newline
 &\text{小车放下A返回接B：}f_C = t_1 \cdot v_1 + t_2 \cdot v_1 = t_1 \cdot v_2 - t_2 \cdot v_2 \newline
 &\text{结果：}f_{result} = t_1  + t_2 + t_3 \newline
 \end{cases}
-\]
+\] -->
+![2](/2025/每日题目/resources/day12_2.png)
 
 联立 $f_A,f_B$，化简 $f_C$ 可得：
 
-\[
+<!-- \[
 \begin{cases}
 &t_1 = t_3 \newline
 &t_1 \cdot \frac{v_2-v_1}{v_2+v_1} = t_2 \newline
 \end{cases}
-\]
+\] -->
+![3](/2025/每日题目/resources/day12_3.png)
 
 将结果重新带入 $f_A$ 可以算出 $t_1$ ，再通过结果的关系带入 $f_{result}$ 中可以得到最终结果。
 

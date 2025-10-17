@@ -10,6 +10,10 @@
 ### 思路：
 记录字符串`s`中每个字母进行计数，找到`maxn`和`minn`，判断`maxn-minn`是否为质数即可。
 
+可能需要的知识：
+
+- 质数：质数判断：[OI Wiki](https://oi-wiki.org/math/number-theory/prime/)；质数筛：[OI Wiki](https://oi-wiki.org/math/number-theory/sieve/)，B站：[算法讲解097【必备】质数判断、质因子分解、质数筛【左程云】](https://www.bilibili.com/video/BV1oK4y1z7ML/?spm_id_from=333.337.search-card.all.click&vd_source=933c136d6897dbf20ff125fb1209208f)
+
 ### 代码(c++)：
 时间复杂度 **O($len(s)$)**, 其中s为输入的字符串
 

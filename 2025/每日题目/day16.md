@@ -1,4 +1,4 @@
->坚持，是一种品格
+>虽然我不是医生，但我还是要提醒你，长期吃这种东西，以后会怎么样我也不知道，因为我一开始就说过了，我不是医生。
 
 # 每日两题
 ---
@@ -8,9 +8,14 @@
 ### 题目：[P4715 【深基16.例1】淘汰赛](https://www.luogu.com.cn/problem/P4715)
 ### 思路：
 由于n不大，暴力即可。每次选择相邻两个数进行对比，对较大的那个放入新的数组中，重复n次，就能得出亚军。
+
+可能需要的知识：
+- 递归：学习网站：[OI Wiki](https://oi-wiki.org/basic/divide-and-conquer/)，B站：[【递归1】递归中的逆向思维【五点七边】](https://www.bilibili.com/video/BV1214y157HG?spm_id_from=333.788.recommend_more_video.-1&vd_source=933c136d6897dbf20ff125fb1209208f)，[有个说法：“「递归」是检验编程天赋的试金石”；而本视频打破天赋壁垒，助你快速掌握递归。【NotOnlySuccess】](https://www.bilibili.com/video/BV1LiS1YSEgF/?spm_id_from=333.337.search-card.all.click&vd_source=933c136d6897dbf20ff125fb1209208f)
+
 ### 代码(c++)：
 方法1(暴力)：
 时间复杂度 **O($2^n$)**  
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -59,8 +64,10 @@ int main() {
     return 0;
 }
 ```
+
 方法2(递归)：
 时间复杂度 **O($2^n$)** 
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -107,7 +114,9 @@ int main() {
     return 0;
 }
 ```
+
 方法3：直接找左右两半的最大值，对比输出即可
+时间复杂度 **O(n)**
 这里就不亮出代码了🙂
 
 
@@ -169,9 +178,11 @@ int main() {
     return 0;
 }
 ```
+
 当然，也可以简单的二分插入
 时间复杂度：**O($n^2$)**
 (至于为什么能过,可能是因为数据太水了🤣🤣🤣)
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
